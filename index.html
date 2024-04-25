@@ -14,7 +14,8 @@
     <div class="container">
       <header>
         <h3>THIS INTERIOR</h3>
-        <nav>
+        <nav class="normal-nav">
+          <span class="material-symbols-outlined" id="bars"> menu </span>
           <ul>
             <li><a href="#" class="nav-link selected">Home</a></li>
             <li><a href="#" class="nav-link">Collection</a></li>
@@ -23,6 +24,15 @@
           </ul>
         </nav>
       </header>
+      <nav class="burger-nav" id="burger-nav">
+        <button id="close-nav"><span class="material-symbols-outlined"> close </span></button>
+        <ul>
+          <li><a href="#" class="nav-link selected">Home</a></li>
+          <li><a href="#" class="nav-link">Collection</a></li>
+          <li><a href="#" class="nav-link">About</a></li>
+          <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
       <main>
         <div class="info">
           <div class="left">
@@ -31,10 +41,9 @@
               A full-Service residencial & commercial interior design and
               staging company offering professional organizing & eco-services.
             </p>
-            <button onclick="alert('Ja Ja que gay')">
-              <span>Read more</span><span class="material-symbols-outlined">
-                arrow_right_alt
-              </span>
+            <button onclick="alert('This should give more info :D')">
+              <span>Read more</span
+              ><span class="material-symbols-outlined"> arrow_right_alt </span>
             </button>
           </div>
 
